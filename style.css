@@ -417,3 +417,8 @@
         width: 20px;
         padding-top: 1em;
     }
+    
+    footer p {
+        background-color: var(--black);
+        height: 100vh;
+    }
