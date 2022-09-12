@@ -27,6 +27,7 @@
     body {
         width: 375px;
         margin: 0 auto;
+        background-color: var(--midBlack);
     }
     /*h1*/
     
@@ -170,3 +171,81 @@
         position: relative;
     }
     /*end first*/
+    
+    .second {
+        position: relative;
+        padding: -9em;
+        padding-left: 2em;
+        padding-top: 2em;
+    }
+    
+    .second span {
+        margin-bottom: 2em;
+    }
+    
+    .sec-section--cards {
+        flex-direction: column;
+        padding: 2em 0;
+        border-radius: 14px;
+        margin-top: 1em;
+        background-color: var(--lightBlack);
+    }
+    
+    .card {
+        margin-bottom: 2em;
+        margin: 0 auto;
+        margin-bottom: 2em;
+        background-color: var(--black);
+    }
+    
+    .icons-card {
+        text-align: center;
+        padding: 0 .20em;
+        gap: .10em;
+    }
+    
+    .card img {
+        width: 100%;
+        display: inline-block;
+        height: 100%;
+    }
+    
+    .card p {
+        display: inline-block;
+        font-size: 11;
+        color: var(--lightGray);
+        align-items: center;
+    }
+    
+    .card-body img {
+        width: 25px;
+    }
+    
+    .card--btn-price {
+        gap: 2em;
+        padding-top: 1em;
+        align-items: center;
+    }
+    
+    .icons-card img {
+        width: 20px;
+    }
+    
+    .icons-card p {
+        margin-right: .20em;
+    }
+    
+    .card--btn-price p {
+        margin-top: 1em;
+    }
+    
+    .explore-icon {
+        gap: .5em;
+        width: 100%;
+        margin-top: 1em;
+    }
+    
+    .explore-icon img {
+        width: 30px;
+        height: 20px;
+    }
