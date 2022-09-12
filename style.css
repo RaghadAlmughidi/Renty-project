@@ -302,3 +302,36 @@
         transform: translateY(-5em);
         z-index: 1;
     }
+    
+    .fourth {
+        padding-left: 2em;
+        transform: translateY(-9em);
+        width: 100%;
+    }
+    
+    .fourth-secton-left p {
+        padding-bottom: 1em;
+        width: 90%;
+    }
+    
+    .fourth-section-left--icon {
+        gap: 1em;
+    }
+    
+    .fourth-section-left--icon img {
+        width: 20px;
+        height: 15px;
+    }
+    
+    .fourth-section-left--icon p {
+        color: var(--lightGray);
+    }
+    
+    .fourth-section-right {
+        width: 100%;
+    }
+    
+    .fourth-section-right img {
+        position: relative;
+        width: 90%;
+    }
