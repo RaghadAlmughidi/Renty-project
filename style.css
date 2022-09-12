@@ -249,3 +249,56 @@
         width: 30px;
         height: 20px;
     }
+    
+    .third {
+        width: 100%;
+        padding-left: 2em;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .third-section-right {
+        width: 100%;
+    }
+    
+    .third-section-right h2 {
+        margin: 1em 0
+    }
+    
+    .third-section-right--services p {
+        width: 100%;
+        color: var(--lightGray);
+    }
+    
+    .third-section-right--services-col {
+        z-index: 2;
+    }
+    
+    .third-section-right--services {
+        gap: 1em;
+    }
+    
+    .icon-services {
+        padding-top: 1em;
+    }
+    
+    .icon-services img {
+        display: inline-block;
+        width: 18px;
+        height: 16px;
+    }
+    
+    .third-section-left {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .third-section-left img {
+        display: inline-block;
+        margin-left: -3em;
+        margin-right: auto;
+        text-align: center;
+        width: 130%;
+        transform: translateY(-5em);
+        z-index: 1;
+    }
